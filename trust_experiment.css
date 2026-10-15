@@ -1,0 +1,27 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width: 640px; margin: 0 auto; text-align: left; line-height: 1.5; }
+.q { font-size: 1.15rem; margin-bottom: .25rem; }
+.gloss { color: #555; font-size: .95rem; margin-top: 0; }
+.jspsych-btn { min-width: 220px; margin: 6px; padding: 10px 16px; }
+.opt small { color: #555; font-weight: normal; }
+.none-btn { opacity: .75; }
+/* "Neither / can't say" sits on its own row, well below the two real options */
+#jspsych-html-button-response-btngroup.jspsych-btn-group-grid { grid-template-rows: auto auto !important; }
+.jspsych-btn.none-choice { grid-column: 1 / -1; justify-self: center; align-self: start; margin-top: 3rem; }
+.warn { border-left: 4px solid #c77700; background: #fff6e5; padding: .5rem 1rem; }
+dl dt { font-weight: 600; margin-top: .6rem; }
+dl dd { margin-left: 0; color: #444; }
+
+/* Questionnaires */
+.survey fieldset { border: 0; padding: 0; margin: 1.2rem 0; }
+.survey legend { font-weight: 600; margin-bottom: .3rem; }
+.survey label { display: block; margin: .15rem 0; }
+.survey input[type=text], .survey input[type=number] { padding: 4px 6px; }
+.survey .sub { margin-left: 1.5rem; margin-top: .3rem; }
+.survey table { border-collapse: collapse; width: 100%; }
+.survey th, .survey td { padding: 6px 8px; text-align: center; border-bottom: 1px solid #ddd; }
+.survey th:first-child, .survey td:first-child { text-align: left; }
+.survey .err { color: #b00020; min-height: 1.2em; }
+.survey input.inline { width: 14rem; margin-left: .4rem; }
+.survey .req { color: #b00020; }
+.survey label:has(input.inline) { white-space: nowrap; }
